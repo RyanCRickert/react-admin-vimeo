@@ -58,6 +58,9 @@ module.exports = (env) => {
                 "process.env.FIREBASE_PROJECT_ID": JSON.stringify(process.env.FIREBASE_PROJECT_ID),
                 "process.env.FIREBASE_STORAGE_BUCKET": JSON.stringify(process.env.FIREBASE_STORAGE_BUCKET),
                 "process.env.FIREBASE_MESSAGING_SENDER_ID": JSON.stringify(process.env.FIREBASE_MESSAGING_SENDER_ID),
+                "process.env.VIMEO_CLIENT_ID": JSON.stringify(process.env.VIMEO_CLIENT_ID),
+                "process.env.VIMEO_CLIENT_SECRET": JSON.stringify(process.env.VIMEO_CLIENT_SECRET),
+                "process.env.VIMEO_ACCESS_TOKEN": JSON.stringify(process.env.VIMEO_ACCESS_TOKEN)
             })
         ],
         mode: "none",

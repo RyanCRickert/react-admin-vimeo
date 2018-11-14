@@ -73,8 +73,7 @@ async function vimeoPoll() {
 }
 
 function startCheck() {
-  //setInterval(function(){vimeoPoll()}, 5000);
-  vimeoPoll()
+  setInterval(function(){vimeoPoll()}, 3600000);
 }
 
 const trackedResources = [{ name: 'posts', isPublic: true }, { name: 'users', isPublic: true }, { name: 'videos', isPublic: true }];
