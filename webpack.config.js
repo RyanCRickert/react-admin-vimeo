@@ -15,7 +15,6 @@ module.exports = (env) => {
 
     return {
         entry: [
-            "babel-polyfill",
             "./src/app.js"
         ],
         output: {
