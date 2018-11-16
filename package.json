@@ -16,6 +16,7 @@
     "test": "cross-env NODE_ENV=test jest --config=jest.config.json"
   },
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
     "aor-firebase-client": "^0.4.0",
     "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
